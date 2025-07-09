@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo das aulas</title>
+
+
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resumo das aulas sobre <abbr title="Hypertext Markup Language">HTML</abbr> Semântico</h1>
+        <hr/>
+    </header>
+
+
+    <main>
+        <h1 id="indice">Índice</h1>
+        <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+        </ul>
+
+
+        <h1>HTML Semântico</h1> <small> <a href="#indice">(Voltar)</a></small>
+        <p>Nesse primeiro conteúdo, começamos aprendendo sobre o que é e a importância da semântica no <u>HTML.</u></p>
+
+
+        <h4>O que é?</h4>
+        <p>É o uso de tags HTML que deixam claro o significado do conteúdo que elas contêm. </p>
+        <p>Onde ao contrário de usar div e span para tudo, se organiza com elementos como header, main, footer e etc.</p>
+        <p>Muito importante para acessibilidade, <a href="#seo">SEO</a> , manutenção e padronização.</p>
+
+
+        <h1>Acessibilidade</h1>
+        <p>A acessibilidade é um conjunto de práticas que tornam um site utilizável para todas as pessoas, inclusive aquelas com deficiências. </p>
+        <p>No HTML, isso significa usar legendas ou recursos maiores para que tecnologias possam ler seu site e interpretar para pessoas com dificuldade.</p>
+
+
+        <h1>Web Scraping</h1>
+        <p>Web scraping é uma técnica usada para extrair dados de sites da internet de forma automatizada.</p>
+
+
+        <p>Em vez de copiar e colar manualmente informações de uma página web, o web scraping </p>
+        <p>usa scripts ou programas para acessar páginas e coletar os dados desejados, como preços, nomes, títulos, links, imagens etc.</p>
+
+
+        <h1>Tags main, header e footer</h1>
+        <p>Essas tags, introduzidas no HTML5, servem para garantir melhor semântica e significado para os conteúdos.</p>
+
+
+        <h4>Header</h4>
+        <p>A tag <mark>header</mark> se usa como cabeçalho para informações no topo da tela.</p>
+
+
+        <h4>Main</h4>
+        <p>A tag <mark>main</mark> serve para colocar o conteúdo principal da sua página e só pode conter <strong>UMA</strong> dela em cada página.</p>
+        <p>Pode-se usar as tags header e footer dentro da main.</p>
+
+
+        <h4>Footer</h4>
+        <p>A tag <mark>footer</mark> é usada como rodapé e serve para colocar informações no final da página.</p>
+        <p>Um bom exemplo são informações e contatos da empresa.</p>
+
+
+        <h1>Tags aside, section e nav</h1>
+        <h4>Section</h4>
+        <p>É um elemento semântico que representa uma seção temática de um documento, com conteúdo logicamente relacionado.</p>
+        <p>A principal diferença entre div e section em HTML está na semântica e no propósito.</p>
+        <p>Div é um contêiner genérico, usado principalmente para estilização e organização visual.</p>
+        <p>Ex: Pesquisei sobre casas e vão aparecer várias casas, cada uma dessas vai estar em uma section.</p>
+        <section><p>Isso é uma section</p></section>
+
+
+        <h4>Aside</h4>
+        <p>É um assunto que não tem muito a ver com o assunto principal da página, como assunto auxiliares.</p>
+        <p>Ex: anúncios, biografia do autor, links de blogs, geralmente representadas como barras laterais. </p>
+
+
+        <h4>Nav</h4>
+        <p>HTML de navegação, geralmente utilizado junto às listas (ordenadas ou não).</p>
+        <p>Bom para estilização de partes separadas.</p>
+
+
+        <h1>Tags article, blockquote e q</h1>
+        <h4>Article</h4>
+        <p>Destinado para colocar o artigo, o conteúdo principal.</p>
+        <p>Permite o alinhamento dos textos.</p>
+        <p>Tem como colocar um article dentro do outro, e o 2<sup>o</sup> estará relacionado com o 1<sup>o</sup> que será o “pai”.</p>
+        <p>Ex: Artigos de notícias, postagens de blog, Comentários de usuários, Entradas de fórum, Widgets interativos.</p>
+
+
+        <h4>Blockquote</h4>
+        <p>Usado para citação de um texto, com uma formatação de citação já pré-estabelecida.</p>
+        <p>Para citar um link, usar o cite=”link” para que o indexador consiga ler e também para melhor acessibilidade.</p>
+        <blockquote>Texto para exemplo de blockquote</blockquote>
+
+
+        <h4>Q</h4>
+        <p>Tambem usado para citação igual o blockquote, só que menor.</p>
+        <p>Usado para fazer uma citação na mesma linha, sem quebrar ela. Exemplo: <q>Texto para exemplo da tag Q.</q></p>
+        <p>Tem como usar o cite também para melhor acessibilidade.</p>
+
+
+        <h1>Tags figure, figcaption e picture</h1>
+        <h4>Figure</h4>
+        <p>Como se fosse um container para imagens, onde vai delimitar o espaço delas.</p>
+        <p>Usado para contextualizar as imagens em meio a um texto.</p>
+
+
+        <h4>Figcaption</h4>
+        <p>Tag auxiliar da figure, onde vai colocar a legenda da foto usada no figure. </p>
+        <p>Usado para relacionar que o texto tem relação com a imagem.</p>
+
+
+        <h4>Picture</h4>
+        <p>Também uma tag para imagem, só que nela você pode colocar diversas fontes para uma mesma imagem.</p>
+        <p>Dá para mudar a imagem se a tela do usuário for menor do que "x" largura.</p>
+
+
+        <h1 id="seo">SEO</h1>
+        <h4>O que é?</h4>
+        <p><i>SEO (Search Engine Optimization)</i> ou otimização para motores de busca, é um conjunto de técnicas usadas para fazer</p>
+        <p>com que um site apareça melhor posicionado nos resultados de uma busca no Google, safari etc.</p>
+
+
+        <h4>Como funciona?</h4>
+        <p>Os "motores de busca" leem os sites com robôs (crawlers), analisam a estrutura e os conteúdos</p>
+        <p>e então classificam nos resultados de busca com base em diversos fatores.</p>
+
+
+        <h1>Referências</h1>
+        <p>Site para ver tudo sobre HTML: <a href="https://www.w3schools.com/html/">W3CSchools</a></p>
+       
+
+
+
+
+    </main>
+
+
+    <footer></footer>
+</body>
+</html>
